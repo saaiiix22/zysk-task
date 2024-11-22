@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@media (max-width:1024px) {
+    .app{
+        height: 100vh;
+        width: 1024px;
+    }
+}
+
+@media (max-width:375px) {
+    .app{
+        width: 1440px;
+    }
+    .app>nav{
+        /* background-color: red; */
+        width: 1440px;
+        /* display: none; */
+    }
+    nav>.left{
+        justify-content: start;
+        padding-left: 140px;
+    }
+    nav>.left>ul{
+        display: none;
+    }
+    .body{
+        height: 822px;
+        width: 1440px;
+    }
+    .body>.chart{
+        height: 500px;
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .body>.chart>img{
+        height: 100%;
+        width: 90%;
+    }
+    .btns{
+        height: 300px;
+        width: 1440px;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .btns>button{
+        height: 50%;
+        width: 70%;
+    }
+    .company{
+        height: 600px;
+        width: 1440px;
+    }
+    .company>p{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .commpanies{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center ;
+    }
+    .commpanies>img{
+        height: 22%;
+        width: 33%;
+    }
+    .features{
+        height: 1680px;
+        width: 1440px;
+    }
+    .features>main{
+        height: 20%;
+        width: 100%;
+    }
+    .features>div{
+        height: 80%;
+        width: 100%;
+    }
+    .features>div>.feature{
+        width: 90%;
+    }
+    footer{
+        height: 1040px;
+        width: 1440px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
